@@ -1,0 +1,9 @@
+//1.c++ The only thing that the compiler actually needs to do is to convert our text files and convert them into an intermediate format (.obj) called a target file format.These obj files can be passed to the linker, which can do everything it wants to link.
+//
+// 2. The compiler actually did a few things when generating these objs:
+// First of all, pre -processing our code, which means that all pre -processing statements will be processed first.Once our code is pre -processed, we will marked and analyze more or less, and basically organize it into a format that compilers can truly understand and reason.This basically led to the creation of the so -called abstract grammar tree.It is basically a representation of our code, but it is an abstract grammar tree.Once the compiler creates an abstract syntax tree, it can start generating code.This code is the actual machine, our CPU, the code that will be executed.
+// We also got various other data, such as a place where all constants and variables stored, which is basically everything made by the compiler.
+//
+// 3. Each CPP file will generate a target file, which is called a translation unit.In essence, we must realize that C ++ does not care about files, and the file is not something that exists in C ++.In C ++, the file is just a way to provide the source code of the compiler. You are responsible for telling the compiler what type of file you enter, and how the compiler should handle it.For example, changing A.CPP to B.HBH, as long as the compiler is a C ++ file, so the file is meaningless.
+// 4..
+// But if you Produce a Preprocessing File, it want compile, it wOON'TOPUCE An object file, so disable it to build your file

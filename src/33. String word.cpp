@@ -1,0 +1,1 @@
+// 1. Allows us to define the constant quantity of the string of raw string, in the form of R "(…)". The income is obtained in the brackets, and it also supports the change.

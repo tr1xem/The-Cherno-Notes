@@ -1,0 +1,1 @@
+// 1. Reference is only binding during definition. If the variable is assigned to the reference after the definition is defined, it will not be re -bound, but only assignments.

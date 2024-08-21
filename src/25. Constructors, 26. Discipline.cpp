@@ -1,0 +1,2 @@
+// The main purpose of the constructor is initialization when instantiated, and its name is the same as the class name.
+// The destructive function is automatically called when the object is cleaned. Generally, it will be automatically destroyed when the scope is produced.

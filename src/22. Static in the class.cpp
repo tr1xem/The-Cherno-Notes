@@ -1,0 +1,1 @@
+// Static in the class: There is only the same in all instances, which is equivalent to a global variable in a class.When using it, you need to declare somewhere in the global place, such as: int Entity :: x; When calling, you can use an instance name or class name, such as E.X or Entity :: x
